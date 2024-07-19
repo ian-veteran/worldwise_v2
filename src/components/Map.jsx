@@ -22,8 +22,9 @@ function Map() {
     position: geoLocationPosition,
     getPosition,
   } = useGeolocation();
-  
+
   const [mapLat, mapLng] = useUrlPosition();
+  const navigate = useNavigate();
 
   useEffect(
     function () {
@@ -36,15 +37,18 @@ function Map() {
     function () {
       if (geoLocationPosition)
         setMapPosition([geoLocationPosition.lat, geoLocationPosition.lng]);
+        
     },
     [geoLocationPosition]
   );
 
   return (
     <div className={styles.mapContainer}>
-      {!geoLocationPosition && <Button type="position" onClick={getPosition}>
-        {isLoadingPosition ? "loading..." : "Use your postion"}
-      </Button>}
+      {!geoLocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPosition ? "loading..." : "Use your postion"}
+        </Button>
+      )}
       <MapContainer
         center={mapPosition}
         zoom={13}
