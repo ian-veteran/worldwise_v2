@@ -10,14 +10,12 @@ export default function Product() {
       <section>
         <div>
           <h2>
-            Simple pricing.
+            Old Town
             <br />
-            Just $9/month.
+            Just ksh 200 only.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
+            Get to experience and explore the first Coastal Town in Kenya ,its swahili cultures and architectural designs. 
           </p>
         </div>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />

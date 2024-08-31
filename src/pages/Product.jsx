@@ -14,16 +14,9 @@ export default function Product() {
         <div>
           <h2>About WorldWide.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
-            dicta illum vero culpa cum quaerat architecto sapiente eius non
-            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
-            perspiciatis?
+          Discover the world like never before with worldwise. From breathtaking beaches to majestic mountains, our tailored travel experiences bring your dream destinations to life. Immerse yourself in new cultures, taste exotic cuisines, and uncover hidden gems with our expertly crafted itineraries. Whether you’re seeking a thrilling adventure, a relaxing getaway, or a cultural exploration, we turn your travel dreams into unforgettable memories. Let us handle the details while you focus on the fun. Your next adventure awaits—book with us and experience travel beyond your imagination. Where will your journey take you next?
           </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            doloribus libero sunt expedita ratione iusto, magni, id sapiente
-            sequi officiis et.
-          </p>
+          
         </div>
       </section>
     </main>

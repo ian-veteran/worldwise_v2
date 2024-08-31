@@ -1,6 +1,8 @@
 # React + Vite
 
-# Guess the best China go to food and you'll understand the PIW Tech challenge
+# Guess the best China go to food and you'll understand the PIW Tech challenge.
+
+Basically the website is to create an immence overview of the world best vacation and thrilling place 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
